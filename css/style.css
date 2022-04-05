@@ -9,7 +9,7 @@
 	font-weight: normal;
 	font-style: normal;
 	font-size: 15px;
-	color: #000000;
+	color: white;
 	
 }
 body::-webkit-scrollbar {
@@ -173,7 +173,7 @@ label {
 /* button style */
 .btn {
 	-moz-user-select: none;
-	background: #e7005c none repeat scroll 0 0;
+	background: #460a0b none repeat scroll 0 0;
 	border: medium none;
 	border-radius: 0;
 	color: #fff;
@@ -499,23 +499,22 @@ label {
 	z-index: -1;
 	left: 140px;
 	top: 0;
-}
-.banner-content h6 {
+}.banner-content h6 {
 	font-size: 36px;
-	color: #f7b205;
+	color: #000;
 	margin-bottom: 0;
 	font-style: italic;
 }
 .banner-content h2 {
 	font-size: 80px;
-	color: #fff;
+	color: #d7d7d7;
 	text-transform: uppercase;
 	font-style: italic;
 	line-height: 1;
 	margin-bottom: 30px;
 }
 .banner-content h2 span {
-	color: #f7b205;
+	color: #460a0b;
 }
 .coming-time {
 	display: flex;
@@ -532,7 +531,7 @@ label {
 	color: #f7b205;
 }
 .coming-time .time-count:nth-child(2) {
-	color: #e7005c;
+	color: #460a0b;
 }
 .coming-time .time-count:nth-child(3) {
 	color: #05b6f7;
@@ -595,7 +594,7 @@ label {
 	display: block;
 	font-size: 14px;
 	font-weight: 700;
-	color: #e7005c;
+	color: #460a0b;
 	text-transform: uppercase;
 	font-family: 'Source Sans Pro', sans-serif;
 	letter-spacing: 2px;
@@ -718,7 +717,7 @@ label {
 	margin-bottom: 5px;
 	font-family: 'Source Sans Pro', sans-serif;
 	letter-spacing: 1.8px;
-	color: #e7005c;
+	color: #460a0b;
 }
 .services-content h4 {
 	font-size: 26px;
@@ -727,7 +726,7 @@ label {
 	margin-bottom: 20px;
 }
 .services-content h4 a:hover {
-	color: #e7005c;
+	color: #460a0b
 }
 .services-content p {
 	margin-bottom: 30px;
@@ -777,7 +776,7 @@ label {
 	text-transform: uppercase;
 	color: #1c1327;
 	background: #fff;
-	border: 6px solid #e7005c;
+	border: 6px solid #460a0b;
 	border-radius: 0;
 	padding: 26px 73px;
 	text-align: center;
@@ -786,16 +785,16 @@ label {
 }
 .schedule-tabs .nav-tabs .nav-item.show .nav-link,
 .schedule-tabs  .nav-tabs .nav-link.active {
-	color: #e7005c;
+	color: #460a0b;
 	background-color: #fff;
-	border-color: #e7005c;
+	border-color: #460a0b;
 }
 .schedule-tabs .nav-tabs .nav-link:focus,
 .schedule-tabs .nav-tabs .nav-link:hover {
-	border-color: #e7005c;
+	border-color: #460a0b;
 }
 .schedule-tab-content .tab-pane {
-	border: 6px solid #e7005c;
+	border: 6px solid #460a0b;
 	border-top: none;
 	background: #fff;
 	padding: 50px 30px;
@@ -852,10 +851,10 @@ label {
 }
 .rc-schedule-meta ul li a {color: #716f6f;}
 .rc-schedule-meta ul li a:hover,
-.rc-schedule-sidebar ul li a:hover {color: #e7005c;}
+.rc-schedule-sidebar ul li a:hover {color: #460a0b;}
 .rc-schedule-meta ul li i {margin-right: 5px;}
 .rc-schedule-content h2 span {
-	color: #e7005c;
+	color: #460a0b;
 }
 .schedule-tabs .nav-link::before {
 	content: "";
@@ -867,7 +866,7 @@ label {
 	height: 0;
 	border-style: solid;
 	border-width: 8px 8px 8px 0;
-	border-color: transparent #e7005c transparent transparent;
+	border-color: transparent #460a0b transparent transparent;
 	opacity: 0;
 }
 .schedule-tabs  .nav-tabs .nav-link.active::before {
@@ -915,7 +914,7 @@ label {
 }
 .rc-speakers-list ul li i {
 	margin-right: 10px;
-	color: #e7005c;
+	color: #460a0b
 }
 .rc-speakers-social a {
 	display: inline-block;
@@ -947,7 +946,7 @@ label {
 	width: 45px;
 	text-align: center;
 	line-height: 45px;
-	background: #e7005c;
+	background: #460a0b;
 	color: #fff;
 	font-size: 16px;
 	font-weight: 600;
@@ -987,7 +986,7 @@ label {
 }
 .speaker-overlay > span {
 	font-size: 14px;
-	color: #e7005c;
+	color: #460a0b;
 	font-weight: 700;
 	letter-spacing: 1.8px;
 	text-transform: uppercase;
@@ -2188,7 +2187,7 @@ blockquote::before {
 
 /* 21. Preloader */
 #preloader{
-	background: rgb(0, 0, 0);
+	background:white;
 	height: 100%;
 	width: 100%;
 	position: fixed;
@@ -2229,7 +2228,7 @@ blockquote::before {
 	 transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 .mainload .loadtext{
-	color: white;
+	color: black;
 margin: 0;
 padding-left: 5%;
 width: 100%;
